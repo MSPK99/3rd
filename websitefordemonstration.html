@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Brass Heart Keepsake Urn for Cremation Ashes (Pink)</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #f5c6cb;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+        .badge {
+            background-color: #ffcc00;
+            color: #333;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 1rem;
+            color: #444;
+        }
+        .product-gallery {
+            display: flex;
+            gap: 20px;
+        }
+        .product-gallery img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .thumbnails {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .thumbnails img {
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .product-details {
+            flex: 1;
+        }
+        h1 {
+            color: #333;
+        }
+        .price {
+            color: #e60023;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        .cta-buttons {
+            margin: 20px 0;
+        }
+        .cta-buttons .btn {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .cta-buttons .btn:hover {
+            background-color: #0056b3;
+        }
+        section {
+            margin-top: 30px;
+        }
+        
+        .related-items {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+        .related-items img {
+            width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        .trust-badges {
+            display: flex;
+            gap: 20px;
+            margin: 20px 0;
+            justify-content: center;
+        }
+        .trust-badges img {
+            width: 100px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 20px;
+        }
+        .multi-column {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+            line-height: 1.8;
+        }
+        .multi-column div {
+            flex: 1 1 45%;
+            max-width: 45%;
+            padding: 10px 15px;
+            background-color: #f7f7f7;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .multi-column div strong {
+            font-weight: 500;
+            font-size: 1.1rem;
+            color: #222;
+            display: block;
+            margin-bottom: 5px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-size: 1rem;
+            color: #444;
+        }
+        .product-gallery {
+            display: flex;
+            gap: 20px;
+        }
+        .product-gallery img {
+            max-width: 100%;
+            border-radius: 10px;
+        }
+        .thumbnails {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .thumbnails img {
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #222;
+            margin-bottom: 20px;
+        }
+        .categories-container {
+            margin: 40px auto;
+            max-width: 900px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .scrollable-categories {
+            display: flex;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            gap: 15px;
+            padding: 10px 0;
+            max-width: 100%;
+            height: 180px;
+            white-space: nowrap;
+            box-sizing: border-box;
+        }
+        .scrollable-categories::-webkit-scrollbar {
+            height: 8px;
+        }
+        .scrollable-categories::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 5px;
+        }
+        .scrollable-categories::-webkit-scrollbar-track {
+            background: #f0f0f0;
+        }
+        .category-item {
+            flex: 0 0 auto;
+            text-align: center;
+            width: 140px;
+            height: 160px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .category-item a {
+            display: block;
+            margin-top: 10px;
+            font-size: 1rem;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .category-item a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Brass Heart Keepsake Urn for Cremation Ashes (Pink)</h1>
+    <div class="badge">Trending: 48 sold</div>
+</header>
+
+<div class="container">
+    <div class="product-gallery">
+        <img src="urn-pink-front.jpg" alt="Front view of pink urn">
+        <div class="thumbnails">
+            <img src="urn-pink-front.jpg" alt="Front view">
+            <img src="urn-pink-side.jpg" alt="Side view">
+            <img src="urn-pink-box.jpg" alt="Box view">
+        </div>
+    </div>
+
+    <section>
+        <h2>Item Specifics</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; line-height: 1.8;">
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Condition:</strong> New: A brand-new, unused, undamaged, personally inspected item in its original packaging. Packaging should be the same as what is found in a retail store, unless the item is handmade or was packaged by the manufacturer in non-retail, such as an unprinted box or plastic bag. Furthermore, we thoroughly re-inspect the product before sending the package to delivery
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Shape:</strong> Heart
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Material:</strong> Solid Brass
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Size:</strong> Small
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Color:</strong> Soft Pink
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Year Manufactured:</strong> 2024
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Finish:</strong> Polished, scratch-resistant
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Closure Mechanism:</strong> Threaded screw top
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Features:</strong> Resistant to rust, corrosion, and scratches
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Packaging:</strong> Velvet storage bag included
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Handmade:</strong> Yes, by skilled artisans
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Pattern:</strong> Elegant marbled texture
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Theme:</strong> Religious, Eternal Love
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Number in Pack:</strong> 1 Urn
+            </div>
+            <div style="flex: 1 1 45%; max-width: 45%;">
+                <strong>Country/Region of Manufacture:</strong> India
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section>
+        <h2>A Lasting Tribute to Your Loved One</h2>
+        <p>The <strong>Brass Heart Keepsake Urn</strong> is more than a container—it is a heartfelt tribute, handcrafted to honor the memory of your cherished loved one. Its soft pink hue and durable brass construction symbolize eternal love and strength.</p>
+        <p>Each urn is lovingly made with care, ensuring your loved one’s ashes are preserved securely and beautifully. Whether displayed at home or held during private moments, this keepsake urn will bring comfort and peace.</p>
+
+        <h2>Crafted with Love, Designed for Eternity</h2>
+        <p>This <strong>Brass Heart Keepsake Urn in Pink</strong> is a work of art, carefully handcrafted by skilled artisans who understand the importance of preserving memories. Every curve, every detail, and every polished surface speaks of the care and thought that went into creating this beautiful keepsake.</p>
+        <ul>
+            <li><strong>Elegant Design:</strong> The soft pink finish exudes grace and serenity, offering comfort during difficult times.</li>
+            <li><strong>Durable Craftsmanship:</strong> Made from premium solid brass, this urn is built to last, symbolizing the everlasting bond you share with your loved one.</li>
+            <li><strong>Compact Size:</strong> Ideal for keeping a small portion of ashes close to you, whether at home or in a personal memorial space.</li>
+            <li><strong>Secure Closure:</strong> The threaded screw top ensures that the contents are safely preserved, giving you peace of mind.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Packaging and Presentation</h2>
+        <p>Your keepsake urn comes beautifully presented in a luxurious velvet storage bag, ensuring it is protected and ready to honor your loved one. This thoughtful addition enhances the experience, making it a perfect choice for memorial services, private moments, or as a comforting gift for someone grieving.</p>
+    </section>
+
+    <section>
+        <h2>Why Choose This Keepsake Urn?</h2>
+        <ul>
+            <li><strong>Handcrafted Perfection:</strong> Every urn is created with precision and care, reflecting the love and respect it represents.</li>
+            <li><strong>Elegant and Timeless:</strong> The soft pink polished finish offers a delicate and serene aesthetic.</li>
+            <li><strong>Durability You Can Trust:</strong> Built from premium brass to withstand the test of time.</li>
+            <li><strong>Secure and Safe:</strong> The screw-top lid keeps the ashes secure, ensuring your peace of mind.</li>
+            <li><strong>Compact and Meaningful:</strong> Designed for a small portion of ashes, allowing you to create a personal and intimate tribute.</li>
+            <li><strong>Affordable Prices:</strong> We take pride in knowing that our products are of excellent quality, designed to cater to diverse needs while remaining budget-friendly.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Customer Reviews</h2>
+        <blockquote>
+            <p>"This urn exceeded my expectations. It’s beautifully made and has brought so much comfort to my family. Highly recommend!"</p>
+            <footer>- Verified Buyer</footer>
+        </blockquote>
+        <blockquote>
+            <p>"The soft pink finish and solid design are perfect. It’s a beautiful way to honor my loved one. Thank you for the fast delivery and quality product."</p>
+            <footer>- Verified Buyer</footer>
+        </blockquote>
+    </section>
+
+    <section>
+        <h2>FAQs</h2>
+        <p><strong>Q: Is this urn suitable for pets?</strong></p>
+        <p>A: Absolutely. This urn is designed to hold a small portion of ashes, making it perfect for both human and pet memorials.</p>
+        <p><strong>Q: How much does the urn hold?</strong></p>
+        <p>A: The urn can hold approximately 3-5 tablespoons of ashes, ideal for keepsake purposes.</p>
+    </section>
+
+    <div class="trust-badges">
+        <img src="money-back-guarantee.png" alt="eBay Money Back Guarantee">
+        <img src="premium-service.png" alt="eBay Premium Service">
+    </div>
+</div>
+
+<div class="categories-container">
+    <h2>Featured Categories</h2>
+    <div class="scrollable-categories">
+        <div class="category-item">
+            <img src="category1.jpg" alt="Memorials and Funerals">
+            <a href="https://www.ebay.co.uk/str/globalonlineservices/Memorials-Funerals/_i.html?store_cat=4815463011">Memorials and Funerals</a>
+        </div>
+        <div class="category-item">
+            <img src="category2.jpg" alt="Adult Urns">
+            <a href="https://www.ebay.co.uk/str/globalonlineservices/Adult-Urns/_i.html?store_cat=5669710011">Adult Urns</a>
+        </div>
+        <div class="category-item">
+            <img src="category3.jpg" alt="Keepsake Urns">
+            <a href="https://www.ebay.co.uk/str/globalonlineservices/Keepsake-Urns/_i.html?store_cat=5669713011">Keepsake Urns</a>
+        </div>
+        <div class="category-item">
+            <img src="category4.jpg" alt="Child Urns">
+            <a href="https://www.ebay.co.uk/str/globalonlineservices/Child-Urns/_i.html?store_cat=5669711011">Child Urns</a>
+        </div>
+        <div class="category-item">
+            <img src="category5.jpg" alt="Pets Memorials">
+            <a href="https://www.ebay.co.uk/str/globalonlineservices/Pet-Memorials/_i.html?store_cat=4815468011">Pets Memorials</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Global Online Services. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
